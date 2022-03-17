@@ -49,7 +49,7 @@ There are 3 endpoints in this project
    ```
 
    Here are the list of username and password pairs that can be used to log in:  
-    |Username |Password |
+   |Username |Password |
    |:------- |:------- |
    |gayuhtami |tami1234 |
    |admin |admin1234 |
@@ -107,3 +107,8 @@ There are 3 endpoints in this project
        "company_logo": "https://jobs.github.com/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZzZqIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--23cbad69864ba3e2e6614bda12beda0b08c03c68/blindside.jpg"
    }
    ```
+   
+   **Header for Authorization**
+   |Key           | Value           |
+   |:---          | :----           |
+   |Authorization | Bearer {token}  |
