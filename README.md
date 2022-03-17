@@ -63,7 +63,7 @@ There are 3 endpoints in this project
    | location    | String  | FALSE    |
    | full_time   | Boolean | FALSE    |
 
-   Url example: [`http://localhost:3000/jobs?description=python&location=berlin`](http://localhost:3000/jobs?description=python&location=berlin)
+   Url example: http://localhost:3000/jobs?description=python&location=berlin
 
    Response body example:
 
@@ -88,7 +88,7 @@ There are 3 endpoints in this project
 3. GET `/jobs/:id`  
    This is an endpoint that will return a job's detail by its id.
 
-   Url example: [`http://localhost:3000/jobs/f4a7c47f-c8ac-49fa-b15b-4ab37bfd2307`](http://localhost:3000/jobs/f4a7c47f-c8ac-49fa-b15b-4ab37bfd2307)
+   Url example: http://localhost:3000/jobs/f4a7c47f-c8ac-49fa-b15b-4ab37bfd2307
 
    Response body example:
 
